@@ -61,4 +61,4 @@ docker swarm join \
 ```bash
 docker node ls
 ```
-![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker8.png)
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker7.png)
