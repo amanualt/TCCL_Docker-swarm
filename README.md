@@ -12,7 +12,7 @@ curl -L https://github.com/docker/machine/releases/download/v0.10.0/docker-machi
 ```bash
 docker-machine create --driver virtualbox --virtualbox-memory "512" --virtualbox-disk-size "5000" minion1
 ```
-![Alt text] (https://github.com/amanuDigm/TCCL_Docker-swarm/screenshots/docker1.png?raw=true "Optional Title")
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker1.png)
 ### Setting memory and hardisk
 - setting memory
 ```bash
