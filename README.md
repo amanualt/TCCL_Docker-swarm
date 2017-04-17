@@ -18,13 +18,13 @@ docker-machine create --driver virtualbox --virtualbox-memory "512" --virtualbox
 ```bash
 --virtualbox-memory "512"
 ```
-pada script diatas digunakan untuk mengalokasikan memory menjadi 512mb
+allocates 512MB memory
 
 - setting hardisk
 ```bash
 --virtualbox-disk-size "5000"
 ```
-pada script diatas digunakan untuk mengalokasikan hardisk yang akan digunakan sebesar 5000mb
+allocates 5000MB hardisk
 
 ### Looking docker-machine
 ```bash
