@@ -27,12 +27,6 @@ allocates 512MB memory
 ```
 allocates 5000MB hardisk
 
-### Looking docker-machine
-```bash
-docker-machine ls
-```
-![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker2.png)
-
 ### Looking ip manager
 ```bash
 ifconfig
