@@ -12,38 +12,63 @@ curl -L https://github.com/docker/machine/releases/download/v0.10.0/docker-machi
 ```bash
 docker-machine create --driver virtualbox --virtualbox-memory "512" --virtualbox-disk-size "5000" node1
 ```
+<<<<<<< HEAD
 ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/1.png)
 
+=======
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker1.png)
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
 ### Setting memory and hardisk
 - setting memory
 ```bash
 --virtualbox-memory "512"
 ```
-pada script diatas digunakan untuk mengalokasikan memory menjadi 512mb
+allocates 512MB memory
 
 - setting hardisk
 ```bash
 --virtualbox-disk-size "5000"
 ```
-pada script diatas digunakan untuk mengalokasikan hardisk yang akan digunakan sebesar 5000mb
+allocates 5000MB hardisk
 
+<<<<<<< HEAD
+=======
+### Looking docker-machine
+```bash
+docker-machine ls
+```
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker2.png)
+
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
 ### Looking ip manager
 ```bash
 ifconfig
 ```
+<<<<<<< HEAD
 ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/2.png)
+=======
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker3.png)
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
 
 ### Remote manager
 ```bash
 docker-machine ssh node1
 ```
+<<<<<<< HEAD
 ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/3.png)
+=======
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker4.png)
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
 
 ### Looking token manager
 ```bash
 docker swarm init --advertise-addr 192.168.99.1
 ```
+<<<<<<< HEAD
 ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/2.2.png)
+=======
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker5.png)
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
 
 ### The minion joined a swarm as a worker
 ```bash
@@ -51,12 +76,17 @@ docker swarm join \
     --token SWMTKN-1-34sz44qnbosozfm7j93dli2m4odcsl8f9zhdqmwrcqen3bewco-erlp1v07bdj1zq4pbrmccj7v8 \
     192.168.99.1:2377
 ```
+<<<<<<< HEAD
 ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/4.png)
 
+=======
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker6.png)
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
 ### Looking status swarm
 ```bash
 docker node ls
 ```
+<<<<<<< HEAD
 ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/5.png)
 
 ### Deploy service to Docker-Swarm
@@ -82,3 +112,6 @@ docker service scale slims=8
   docker service ls
   ```
   ![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/9.png)
+=======
+![alt tag](https://raw.githubusercontent.com/amanuDigm/TCCL_Docker-swarm/master/screenshots/docker7.png)
+>>>>>>> 4db2eb3e282b8349213fddd80d4194fac6f701bf
